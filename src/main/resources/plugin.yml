@@ -1,0 +1,9 @@
+name: FastBridger
+version: ${project.version}
+main: xyz.trixkz.fastbridger.Main
+
+commands:
+  setspawn:
+  reloadfiles:
+  fastbridger:
+  coins:

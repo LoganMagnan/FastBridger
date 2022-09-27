@@ -1,0 +1,45 @@
+# Debug mode
+# Only set this value to "true" if Trixkz (LoganM) tells you to do it
+debug: false
+
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-#
+#          MongoDB Database Connection          #
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-#
+
+mongodb:
+  host: 195.201.200.164
+  port: 19132
+  database: "FastBridger1"
+  auth:
+    enabled: true
+    username: "mongoadmin"
+    password: "bAqQNj7hMu5VgF6L"
+    auth-database: "admin"
+
+# Admin permission node
+admin-permission-node: "fastbridger.admin"
+# No permission message
+no-permission-message: "&cNo permission"
+# Spawn point set message
+spawn-point-set-message: "&aSpawn point set"
+# Files reloaded message
+files-reloaded-message: "&aFiles reloaded"
+
+# Join message
+join-message:
+  - " "
+  - "&5&k||&r &7Welcome to &bFast Bridger&7! &5&k||"
+  - " "
+
+arenas:
+  - "DoNotChangeThisPlaceHolderArena"
+
+blocks:
+  0:
+    material: "SANDSTONE"
+  1:
+    material: "GRASS"
+  2:
+    material: "STONE"
+  3:
+    material: "LOG"
